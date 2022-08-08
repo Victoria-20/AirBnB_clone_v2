@@ -1,6 +1,7 @@
 # AirBnB Clone The console
 
 <img src="https://user-images.githubusercontent.com/88321504/151029160-b8dc0a62-6b39-4932-81a6-55bc1b503961.png">
+
 ## ABOUT
 
 This is the first part of the AirBnB project. For this part, the main focus will be on creating models and the interpreter.
