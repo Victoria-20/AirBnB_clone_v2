@@ -1,6 +1,6 @@
 # AirBnB Clone The console
 
-<img src="https://s3.amazonaws.com/alx-intranet.hbtn.io/uploads/medias/2018/6/65f4a1dd9c51265f49d0.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOUSBVO6H7D%2F20220808%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20220808T102357Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=9f3277346da6eb0d39b32ff50ff3e1c834357bef066b75f47fe241fda0f791eb" alt="AirBnB">
+![image] (https://s3.amazonaws.com/alx-intranet.hbtn.io/uploads/medias/2018/6/65f4a1dd9c51265f49d0.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOUSBVO6H7D%2F20220808%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20220808T102357Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=9f3277346da6eb0d39b32ff50ff3e1c834357bef066b75f47fe241fda0f791eb)
 
 ## ABOUT
 
