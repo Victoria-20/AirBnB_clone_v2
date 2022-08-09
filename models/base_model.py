@@ -16,9 +16,15 @@ class BaseModel():
 
         if kwargs:
             for key, value in kwargs.items():
-                if key == 'created_at' or key == 'updated_at':
-                    value = datetime.strptime(value, "%Y-%m-%dT%H:%M:%S.%f")
-                if key != '__class__':
+                if key == "created_at":
+                    date = value[0:10] + " " + value[11:]
+                    self.created_at = datetime.strptime(
+                        date, '%Y-%m-%d %H:%M:%S.%f')
+                elif key == "updated_at":
+                    date = value[0:10] + " " + value[11:]
+                    self.updated_at = datetime.strptime(
+                        date, "%Y-%m-%d %H:%M:%S.%f")
+                elif key != "__class__":
                     setattr(self, key, value)
 
     def __str__(self):
