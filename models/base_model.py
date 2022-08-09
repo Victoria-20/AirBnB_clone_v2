@@ -26,6 +26,7 @@ class BaseModel():
                         date, "%Y-%m-%d %H:%M:%S.%f")
                 elif key != "__class__":
                     setattr(self, key, value)
+        models.storage.new(self)
 
     def __str__(self):
         """ String representation for an object """
@@ -35,6 +36,7 @@ class BaseModel():
     def save(self):
         """ updates the updated_at attribute with the current datetime """
         self.updated_at = datetime.now()
+        models.storage.save()
 
     def to_dict(self):
         """ returns a dictionary containing all keys/values of
